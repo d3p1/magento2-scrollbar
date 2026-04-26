@@ -1,0 +1,33 @@
+<?php
+/**
+ * @description Overlay Scrollbars effect
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
+ * @link        https://kingsora.github.io/OverlayScrollbars/#!overview
+ */
+?>
+
+<?php
+/**
+ * @var \Magento\Framework\View\Element\Template $block
+ */
+?>
+
+<?php
+/**
+ * @note Add Overlay Scrollbars JS
+ */
+?>
+<script>
+    // <![CDATA[
+    require(['jquery', 'overlayScrollbars'], function($) {
+        $(document).ready(function() {
+            <?php
+            /**
+             * @note Add effect to body and to modals
+             */
+            ?>
+            $('body, .modal-inner-wrap').overlayScrollbars({})
+        })
+    })
+    // ]]>
+</script>

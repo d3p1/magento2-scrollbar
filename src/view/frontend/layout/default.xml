@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @description Default layout customizations
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!--
+        /**
+         * @note Add Overlay Scrollbars plugin styles
+         * @link https://kingsora.github.io/OverlayScrollbars/#!overview
+         */
+        -->
+        <css src="D3p1_Scrollbar::css/lib/overlay.scrollbars.min.css"/>
+    </head>
+
+    <body>
+        <referenceContainer name="before.body.end">
+            <!--
+            /**
+             * @note Add Overlay Scrollbars effect
+             */
+            -->
+            <block class="Magento\Framework\View\Element\Template" name="scrollbar"
+                   template="D3p1_Scrollbar::scrollbar.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
