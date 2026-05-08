@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/d3p1/magento2-scrollbar/compare/v1.0.0...v1.0.1) (2026-05-08)
+
+
+### Bug Fixes
+
+* adjust magento framework dependency version constraint [[#1](https://github.com/d3p1/magento2-scrollbar/issues/1)] ([12d0686](https://github.com/d3p1/magento2-scrollbar/commit/12d06861d2ed94d0cba068d9d9c5216abebe279a))
+
 # 1.0.0 (2026-05-08)
 
 
