@@ -1,3 +1,15 @@
+# 1.0.0 (2026-05-08)
+
+
+### Bug Fixes
+
+* adjust package information [[#1](https://github.com/d3p1/magento2-scrollbar/issues/1)] ([ce4d4b2](https://github.com/d3p1/magento2-scrollbar/commit/ce4d4b2bd85742745e4f4a391b3473a502813ee4))
+
+
+### Features
+
+* init [[#1](https://github.com/d3p1/magento2-scrollbar/issues/1)] ([572b056](https://github.com/d3p1/magento2-scrollbar/commit/572b056a3f9977e56bd426a91f2f3a11b6589fb2))
+
 # 1.0.0 (2026-04-22)
 
 
